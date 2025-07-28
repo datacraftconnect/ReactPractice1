@@ -1,4 +1,4 @@
-import { useState,useEffect } from 'react'
+import { useState,useEffect,useContext } from 'react'
 import './App.css'
 
 function Clicker() {
@@ -29,6 +29,15 @@ function Timer() {
   return <p>Timer: {seconds}s</p>;
 }
 
+// Context for theme
+import React from 'react';
+const ThemeContext = React.createContext('white');
+
+function ThemedText() {
+  const theme = useContext(ThemeContext);
+  return <p style={{ color: theme === 'dark' ? 'white' : 'blue' }}>Text</p>;
+}
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -42,6 +51,10 @@ function App() {
       <h1>Testing Hooks on React - userEffect</h1>
       <Timer />
       </div>
+      <div>
+      <h1>Testing Hooks on React - useContext</h1>
+      <ThemedText />
+      </div>      
     </div>
 
   )
