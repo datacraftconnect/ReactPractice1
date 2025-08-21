@@ -8,4 +8,4 @@ export default defineConfig({
     modules: {
       localsConvention: 'camelCaseOnly',    // This ensures that CSS class names are converted to camelCase
   }
-})
+}})

@@ -1,6 +1,12 @@
+/* Global Styles - for entire site & every elements */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif; /* Default font */;
+  font-family: 'Roboto', Arial, sans-serif; /* Default font */;
+}
+
+
+html, body, #root {
+  height: 100%;
 }
