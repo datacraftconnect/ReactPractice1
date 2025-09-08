@@ -1,0 +1,11 @@
+/* Global Styles - for entire site & Every Elements*/
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Outfit',Arial, Helvetica, sans-serif 
+}
+
+html {
+  scroll-behavior: smooth;  /* smooth scrolling for anchor links */
+}
