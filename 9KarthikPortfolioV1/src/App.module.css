@@ -1,0 +1,14 @@
+/* App.module.css - styles for the main App Component */
+@import "./vars.css";
+
+.App {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--color-primary);
+}
+
