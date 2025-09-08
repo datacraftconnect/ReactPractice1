@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import styles from "./App.module.css";
 import { Navbar } from "./components/Navbar/Navbar";
+import { Footer } from "./components/Footer/Footer";
 
 // Import Bootstrap CSS and theme variables
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -26,6 +27,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
         </Routes>
       </div>
+      <Footer />
     </>
   );
 }
