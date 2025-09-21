@@ -1,0 +1,192 @@
+.home {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  padding: 0;
+}
+
+.topSection {
+  padding: 2rem 1rem;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(87, 108, 188, 0.1) 0%, rgba(25, 55, 109, 0.1) 100%);
+}
+
+.introText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.line1 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+  color: var(--color-text);
+}
+
+.name {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  color: var(--color-text);
+}
+
+.typewriter {
+  font-size: 1.8rem;
+  color: var(--color-text);
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.introImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.middleSection {
+  padding: 2rem 1rem;
+  background-color: var(--color-bg);
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+}
+
+.aboutTitle {
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.aboutText {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+  color: var(--color-text);
+}
+
+.highlight {
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+.avatar {
+  width: 300px;
+  height: 300;
+  border-radius: 50%;
+  object-fit: cover;
+  image-rendering: auto; 
+
+}
+
+.followSection {
+  padding: 4rem 2rem 8rem 2rem;
+  background-color: var(--color-bg);
+  margin-bottom: 10rem;
+}
+
+.followTitle {
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.icon {
+  color: var(--color-text);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  color: var(--color-primary);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .topSection {
+    padding: 2rem 1rem;
+    min-height: auto;
+  }
+
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .typewriter {
+    font-size: 1.4rem;
+  }
+
+  .introImage {
+    margin-top: 2rem;
+    max-width: 80%;
+  }
+
+  .middleSection {
+    padding: 2rem 1rem;
+  }
+
+  .aboutTitle {
+    font-size: 2rem;
+  }
+
+  .aboutText {
+    font-size: 1rem;
+  }
+
+  .avatar {
+    width: 200px;
+    height: 200px;
+    margin-top: 2rem;
+  }
+
+  .followSection {
+    padding: 2rem 1rem;
+  }
+
+  .followTitle {
+    font-size: 1.5rem;
+  }
+
+  .socialIcons {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .icon {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .name {
+    font-size: 2rem;
+  }
+
+  .typewriter {
+    font-size: 1.2rem;
+  }
+
+  .aboutTitle {
+    font-size: 1.8rem;
+  }
+
+  .aboutText {
+    font-size: 0.95rem;
+  }
+
+  .followTitle {
+    font-size: 1.3rem;
+  }
+}

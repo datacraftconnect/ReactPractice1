@@ -7,8 +7,8 @@ import { Footer } from "./components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./vars.css";
 
-// Placeholder components for different sections
-const Home = () => <div className={styles.section}><h1>Home Section</h1><p>Welcome to my portfolio!</p></div>;
+// Import components
+import Home from './components/Home/Home';
 const About = () => <div className={styles.section}><h1>About Section</h1><p>Learn more about me.</p></div>;
 const Projects = () => <div className={styles.section}><h1>Projects Section</h1><p>Check out my work.</p></div>;
 const Resume = () => <div className={styles.section}><h1>Resume Section</h1><p>View my experience.</p></div>;

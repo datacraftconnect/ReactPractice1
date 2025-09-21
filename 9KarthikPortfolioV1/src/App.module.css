@@ -8,9 +8,9 @@
   font-size: var(--font-size);
   line-height: var(--line-height);
   width: 100%;
-  min-height: calc(100vh - 80px); /* Subtract navbar height */
+  min-height: calc(100vh - 80px - 100px); /* Subtract navbar and footer height */
   flex: 1; /* Allow main content to grow */
-  padding: 0;
+  padding: 0 0 100px 0; /* Add padding for fixed footer */
   margin: 0;
 }
 
