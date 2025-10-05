@@ -9,7 +9,7 @@ import "./vars.css";
 
 // Import components
 import Home from './components/Home/Home';
-const About = () => <div className={styles.section}><h1>About Section</h1><p>Learn more about me.</p></div>;
+import About from './components/About/About';
 const Projects = () => <div className={styles.section}><h1>Projects Section</h1><p>Check out my work.</p></div>;
 const Resume = () => <div className={styles.section}><h1>Resume Section</h1><p>View my experience.</p></div>;
 const Blog = () => <div className={styles.section}><h1>Blog Section</h1><p>Read my thoughts.</p></div>;
